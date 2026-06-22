@@ -1,1 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
 @import "tailwindcss";
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  @apply bg-slate-50 text-slate-900 antialiased;
+  background-image: radial-gradient(circle at top left, rgba(56,189,248,0.08), transparent 18%),
+    radial-gradient(circle at bottom right, rgba(16,185,129,0.08), transparent 22%);
+}
+
+* {
+  box-sizing: border-box;
+}
